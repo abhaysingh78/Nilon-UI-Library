@@ -1,0 +1,26 @@
+{
+  "name": "@abhaysingh/library-comp",
+  "version": "1.0.2",
+  "private": false,
+  "description": "a component library",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+  },
+  "keywords": [
+    "components"
+  ],
+  "author": "abhay",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}

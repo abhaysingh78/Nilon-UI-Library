@@ -7,7 +7,7 @@ const Button = props => {
       <button
         className={`${props.color} ${props.size} ${props.shadow} ${
           props.rounded && "round"
-        }`}
+        } ${props.bold && "bold"} ${props.light && "light"}`}
         onClick={props.onClick && props.onClick}
       >
         {props.name ? props.name : "Button"}

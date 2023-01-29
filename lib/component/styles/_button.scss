@@ -1,3 +1,5 @@
+@use "./variable" as variable;
+
 button {
   margin: 0;
   display: inline-flex;
@@ -11,9 +13,8 @@ button {
   text-align: center;
   overflow: hidden;
   position: relative;
-
   color: #ffffff;
-  background: #6366f1;
+  background: variable.$base-color;
   border: 1px solid #6366f1;
   padding: 0.75rem 1.25rem;
   font-size: 1rem;

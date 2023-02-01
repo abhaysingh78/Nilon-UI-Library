@@ -4,10 +4,10 @@ html * {
   font-family: "Inter", sans-serif !important;
 }
 
-$base-button-xl: 1.1rem 3.1rem;
-$base-button-lg: 0.9rem 2.9rem;
-$base-button-md: 0.7rem 2.5rem;
-$base-button-sm: 0.5rem 1.7rem;
+$base-button-xl: 1rem 3rem;
+$base-button-lg: 0.7rem 2.7rem;
+$base-button-md: 0.5rem 2.2rem;
+$base-button-sm: 0.5rem 1.4rem;
 
 $nilon-colors: #ed51;
 
@@ -91,3 +91,5 @@ $nilon-colors-gray600: #889096;
 $nilon-colors-gray700: #7e868c;
 $nilon-colors-gray800: #687076;
 $nilon-colors-gray900: #11181c;
+$nilon-colors-white: #fff;
+$nilon-colors-black: #000;

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/_button.scss";
 
 const Button = props => {
-  const [shadow, setShadow] = useState("");
+  const [shadow, setShadow] = useState("shadowPrimary");
   useEffect(() => {
     switch (props.color) {
       case "error":

@@ -1,11 +1,15 @@
 {
   "name": "@abhaysingh/nilon-ui",
-  "version": "1.0.56",
+  "version": "1.0.58",
   "private": false,
   "description": "a component library",
   "main": "index.js",
   "directories": {
     "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhaysingh78/Nilon-UI-Library/"
   },
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"

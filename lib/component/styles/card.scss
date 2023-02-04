@@ -30,6 +30,7 @@ $color_grey_dark: #a2a2a2;
     color: inherit;
     &:hover {
       color: variable.$nilon-colors-green550;
+      cursor: "pointer";
     }
   }
   &:hover {
@@ -73,6 +74,7 @@ $color_grey_dark: #a2a2a2;
     font-size: 0.9rem;
     .a {
       text-decoration: dotted underline;
+      cursor: "pointer";
     }
     ul li {
       display: inline-block;
@@ -121,11 +123,12 @@ $color_grey_dark: #a2a2a2;
     }
     .read-more {
       text-align: right;
+      cursor: pointer;
       .a {
         color: variable.$nilon-colors-green550;
         display: inline-block;
         position: relative;
-
+        cursor: "pointer";
         &:hover:after {
           margin-left: 5px;
           opacity: 1;

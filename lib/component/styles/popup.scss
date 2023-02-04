@@ -30,6 +30,7 @@
 }
 .overlay:target {
   visibility: visible;
+  z-index: 999;
   opacity: 1;
 }
 
